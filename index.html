@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/35300ef442.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/my-logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Graphic Designer</p>
+                <h1>Hi, I'm <span>MOHAN</span> <br></h1>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/about.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>HELLO there, this is MOHAN, a passionate BRAND DESIGNER with 3 years of hands-on experience in shaping powerful brand identities. I believe that a well-crafted brand can create an emotional connection with audiences and drive lasting loyalty.
+                        .</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">experience</p>
+                        <p class="tab-links" onclick="opentab('education')">education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>LOGO DESIGN</span><br>"Designing Logos that Speak Volumes."</li>
+                            <li><span>BRAND DESIGN</span><br>"In a world full of noise, make your brand speak volumes visually."</li>
+                            <li><span>WEB DEVELOPMENT</span><br>"Where ideas meet HTML and dreams take shape. #WebDevelopment"</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>LOGO </span><br>3years experience of logo design</li>
+                            <li><span>BRAND</span><br>3years experience of branding</li>
+                            <li><span>WEB</span><br>2years experience of web dev</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span> DIPLOMA STUDENT</span><br></li>
+                            <li><span> AT MOHAN BABU UNIVERCITY TIRUPATI</span><br></li>
+                            <li><span> 2022 - 2025</span><br></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------services-------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-slack"></i>
+                    <h2>brand design</h2>
+
+                    <p>Branding is a continuous process that requires strategic planning, consistency, and a deep understanding of the target audience. When executed effectively, branding not only helps in attracting and retaining customers but also establishes a lasting and positive impression that extends beyond products or services.</p>
+                    <!-- <a href="learn1.html">learn more</a> -->
+                </div>
+                <div>
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <h2>logo design</h2>
+                     <p>Professional logo designers often engage in a thorough discovery process, working closely with the client to understand the brand, its values, and its target audience. They then translate these insights into a visual representation that effectively communicates the brand's identity. The result is a unique and powerful symbol that becomes a cornerstone of the overall branding strategy.</p> 
+                    <!-- <a href="#">learn more</a> -->
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>WEB DEVELOPMENT</h2>
+                    <p>Web development is a dynamic field, continually evolving with new technologies and frameworks. It requires a combination of technical expertise, problem-solving skills, and creativity to create effective and user-friendly online experiences.
+                    </p>
+                    <!-- <a href="#">learn more</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ==============portfolio=============================== -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/WORK1.jpg">
+                    <div class="layer">
+                        <h3>LOGOS</h3>
+                        <p>"Designing Logos that Speak Volumes."</p>
+                        <a href="work1.html"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/WORK2.jpg">
+                    <div class="layer">
+                        <h3>BRANDING </h3>
+                        <p>"In a world full of noise, make your brand speak volumes visually."</p>
+                        <a href="work2.html"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/WORK3.jpg">
+                    <div class="layer">
+                        <h3> POSTERS </h3>
+                        <p>"Bold, Beautiful, and Bespoke: Our Poster Designs Speak Volumes." </p>
+                        <a href="work3.html"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- <a href="#" class="btn">see more</a> -->
+        </div>
+    </div>
+
+
+    <!-- ------------------contact  -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">contact me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i>vanammohan12@gmail.com</p>
+                    <p> <i class="fa-solid fa-phone"></i>6303316565</p>
+                    <div class="social-icons">
+                        <a href="https://www.behance.net/mohankrishna45"><i class="fa-brands fa-behance"></i></a>
+                        <a href="https://dribbble.com/Mohandesigner12"><i class="fa-brands fa-dribbble"></i></a>
+                        <a href="https://instagram.com/mohan.designerr?igshid=YTQwZjQ0NmI0OA%3D%3D&utm_source=qr"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/mohan-krishna-ab1b84269/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/MohanKrishna_InternshalaResume (1).pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="name" placeholder="Your name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit   
+                        </button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copywrite idont know <i class="fa-solid fa-heart"></i> about ant thing </p>
+        </div>
+    </div>
+
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0"
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px"
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycby4F5iOMTmS-D2uY4MN5HuMSY7bOAcQg8dd5xC0khyfasypjjce9pT9BJRMExqgAHW3/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg =  document.getElementById("msg")
+
+
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message Sent Successfully"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+
+</html>
